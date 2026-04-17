@@ -1,0 +1,68 @@
+export default {
+  content: ["./index.html", "./src/**/*.{js,jsx}"],
+  theme: {
+    extend: {
+      colors: {
+        outline: "#86736c",
+        "on-surface": "#1c1c19",
+        "on-primary": "#ffffff",
+        "surface-container-low": "#f6f3ee",
+        "surface-container-highest": "#e5e2dd",
+        "secondary-fixed": "#ffdea5",
+        "on-primary-container": "#fff2ee",
+        surface: "#fcf9f4",
+        background: "#fcf9f4",
+        "on-error-container": "#93000a",
+        "on-secondary-container": "#785a1a",
+        "tertiary-fixed": "#ffdbd0",
+        "on-tertiary-container": "#fff2ef",
+        tertiary: "#6f5047",
+        "surface-container": "#f0ede8",
+        "surface-container-high": "#ebe8e3",
+        "inverse-on-surface": "#f3f0eb",
+        "on-secondary-fixed-variant": "#5d4201",
+        "primary-fixed": "#ffdbce",
+        "primary-container": "#a45d41",
+        "on-background": "#1c1c19",
+        "surface-tint": "#8f4c31",
+        "on-tertiary-fixed-variant": "#5d4037",
+        "on-secondary": "#ffffff",
+        "on-surface-variant": "#53433d",
+        "secondary-container": "#fed488",
+        "on-tertiary": "#ffffff",
+        "surface-variant": "#e5e2dd",
+        "primary-fixed-dim": "#ffb59a",
+        primary: "#86452b",
+        "outline-variant": "#d9c2ba",
+        "tertiary-container": "#8a685e",
+        "inverse-primary": "#ffb59a",
+        secondary: "#775a19",
+        "inverse-surface": "#31302d",
+        "secondary-fixed-dim": "#e9c176",
+        error: "#ba1a1a",
+        "on-primary-fixed": "#370e00",
+        "tertiary-fixed-dim": "#e7bdb1",
+        "surface-dim": "#dcdad5",
+        "surface-bright": "#fcf9f4",
+        "surface-container-lowest": "#ffffff",
+        "on-tertiary-fixed": "#2c160e",
+        "on-secondary-fixed": "#261900",
+        "error-container": "#ffdad6",
+        "on-primary-fixed-variant": "#72351d",
+        "on-error": "#ffffff"
+      },
+      borderRadius: {
+        DEFAULT: "0.125rem",
+        lg: "0.25rem",
+        xl: "0.5rem",
+        full: "0.75rem"
+      },
+      fontFamily: {
+        headline: ["Noto Serif"],
+        body: ["Manrope"],
+        label: ["Manrope"]
+      }
+    }
+  },
+  plugins: [],
+}
